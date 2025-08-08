@@ -1,0 +1,38 @@
+evaluations/*/results*
+evaluations/*/*/results*
+evaluations/*/*/*/results*
+agent_refactored/*/results*
+agent_refactored/*/*/results*
+agent_refactored/experiments/*/*/results*
+agent_refactored/experiments/*/*/*/results*
+agent_refactored/shared_utilities/*
+agent_refactored/figures
+api_key*
+*slurm*
+__pycache__
+.env
+responses
+job_error
+job_output
+wandb/
+data/
+
+*.log*
+*.png*
+*.out*
+*.err*
+logs/
+__pycache__/
+evaluations/political_values/deference_shifts/*.json
+
+# Large data files
+evaluations/political_values/deference_shifts/*.json
+evaluations/political_values/us_politics/*.json
+maximization_results*
+*agent_refactored/experiments/utility_maximization_testbeds/political_questions/open_ended_questions/results/*
+# Git LFS related files
+git-lfs*
+*.tar.gz
+
+# Keep the .txt files
+!evaluations/political_values/deference_shifts/*.txt
